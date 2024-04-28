@@ -1,0 +1,141 @@
+.tabulky {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Nunito;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+#tabulka2 {
+  width: 100%;
+}
+
+#tabulka1 {
+  width: 100%;
+}
+
+#tabulka3 td {
+  padding: 10px;
+}
+
+#tabulka3 {
+  width: 100%;
+}
+
+.prednirada {
+  background-color: #8957e64a;
+  padding: 20px;
+  border-right: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+  color: #343a40;
+}
+
+#tabulka1 thead {
+  background: #ab7cff;
+  background: -moz-linear-gradient(top, #c09dff 0%, #b389ff 66%, #ab7cff 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #c09dff 0%,
+    #b389ff 66%,
+    #ab7cff 100%
+  );
+  background: linear-gradient(to bottom, #c09dff 0%, #b389ff 66%, #ab7cff 100%);
+  border-bottom: 2px solid #444444;
+  color: white;
+  font-weight: bold;
+}
+
+.hlavicka {
+  background: #ab7cff;
+  background: -moz-linear-gradient(top, #c09dff 0%, #b389ff 66%, #ab7cff 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #c09dff 0%,
+    #b389ff 66%,
+    #ab7cff 100%
+  );
+  background: linear-gradient(to bottom, #c09dff 0%, #b389ff 66%, #ab7cff 100%);
+  border-bottom: 2px solid #444444;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+.nozicka {
+  background: #ab7cff;
+  background: -moz-linear-gradient(top, #c09dff 0%, #b389ff 66%, #ab7cff 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #c09dff 0%,
+    #b389ff 66%,
+    #ab7cff 100%
+  );
+  background: linear-gradient(to bottom, #c09dff 0%, #b389ff 66%, #ab7cff 100%);
+  border-top: 2px solid #444444;
+  color: white;
+  font-weight: bold;
+}
+
+.popisky {
+  color: #7f00ff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Lucida Sans Unicode;
+  border-bottom: 1px solid #7f00ff;
+}
+
+p {
+  margin-top: 0;
+}
+
+input {
+  margin: 15px 0;
+  padding: 10px;
+}
+#error {
+  color: red;
+  font-weight: bold;
+}
+
+.podnadpis {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Lucida Sans Unicode';
+  margin-bottom: 35px;
+  color: #7f00ff;
+  text-align: center;
+}
+
+#nadpis {
+  color: #7f00ff;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Lucida Sans Unicode', sans-serif;
+  margin-bottom: 20px;
+}
+
+#presmerovani {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #7f00ff;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 8px 16px;
+  margin-top: 30px;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom-color 0.3s;
+}
+
+#presmerovani:hover {
+  color: #ab7cff; /* Change link color on hover */
+  border-bottom-color: #ab7cff; /* Change border color on hover */
+  transition: color 0.3s ease, border-bottom-color 0.3s ease; /* Add transition effect for color and border change */
+}

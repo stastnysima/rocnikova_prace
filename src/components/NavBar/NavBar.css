@@ -1,0 +1,45 @@
+.nav {
+  flex-grow: 1; 
+  display: flex;
+  list-style-type: none;
+  margin: 0; 
+  padding: 0; 
+  font-family: "Nunito";
+  font-size: 16px; 
+  padding-left: 50px;
+}
+
+.nav li {
+  margin: 0;
+}
+
+.nav li a {
+  color: #7f00ff; 
+  text-decoration: none;
+  padding: 10px 15px; 
+  transition: color 0.3s ease; 
+  border-bottom: 3px solid transparent; 
+}
+
+.nav li.aktivní a {
+  color: #ab7cff; 
+  border-bottom-color: #ab7cff; 
+}
+
+.nav li a:hover {
+  color: #ab7cff; 
+  border-bottom-color: #ab7cff; 
+  transition: color 0.3s ease, border-bottom-color 0.3s ease; 
+}
+
+.linky {
+  text-decoration: none;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+body {
+  overflow: hidden;
+}
